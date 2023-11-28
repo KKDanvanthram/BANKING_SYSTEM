@@ -1,0 +1,32 @@
+Your C++ software demonstrates object-oriented programming principles by using encapsulating related functionalities inside a category named `Bank`. Here's an evidence of some key factors and selections on your code:
+
+1. **Class Definition:**
+   - You've created a class `Bank` to encapsulate the banking functionalities, promoting code company and reusability.
+
+2. **Private Data Members:**
+   - You've used non-public vectors (`accno`, `accname`, `bal`) to keep account information, encapsulating facts and proscribing direct access from out of doors the magnificence, following the precept of records encapsulation.
+
+3. **Public Data Members:**
+   - Public statistics individuals (`ano`, `name`, `b`) are used to store temporary data earlier than adding it to the vectors. These are used inside member capabilities for transient garage.
+
+4. **Member Functions:**
+   - `setData(int a, std::string n, double b)`: Allows external code to set statistics for the magnificence and provides it to the vectors.
+   - `setData()`: Takes person enter to set statistics for the magnificence and provides it to the vectors.
+   - `show()`: Displays account info saved in vectors.
+   - `deposit()`: Allows users to deposit cash into their debts, updating the account balance.
+   - `test()`: Displays account information based on user input.
+   - `withdraw()`: Allows users to withdraw cash from their bills, updating the account stability.
+
+5. **Main Function:**
+   - The `major()` function serves as the access point of this system. It initializes a `Bank` item and gives a simple text-based totally menu for users to interact with exceptional banking operations.
+
+6. **While Loop:**
+   - The software utilizes a `even as` loop to repeatedly set off the user for movements until they choose to exit.
+
+7. **User Interface:**
+   - The application gives clean prompts and messages, enhancing consumer information and interaction.
+
+8. **Comments:**
+   - You've protected feedback in the course of your code, explaining the cause of capabilities and code blocks, which is ideal practice for code clarity and understanding.
+
+By incorporating those factors, your program is nicely-based and follows fine practices for object-oriented programming, making it readable and maintainable.
